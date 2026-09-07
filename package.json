@@ -1,14 +1,13 @@
 {
   "name": "independent-telegram-bot",
   "version": "1.0.0",
-  "description": "Isolated Telegram bot with key verification and target tracking",
+  "description": "Independent Telegram bot with self-ping and file-based dynamic keys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "mongoose": "^8.3.1",
     "telegraf": "^4.16.3"
   }
 }
